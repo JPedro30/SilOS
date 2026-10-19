@@ -1,12 +1,10 @@
-# 🌾 silOS — Sistema de Operaciones y Stock para Cereal
+# 🌾 SilOS — Sistema Integral Logistico de Operaciones y Stock
 
 <p align="center">
   <img src="docs/logo.svg" alt="silOS Logo" width="520">
 </p>
 
-Plataforma web profesional concebida para la gestión integral de **Operaciones y Stock de Silos en plantas logísticas de cereal**. **silOS** centraliza la recepción, control de capacidad, análisis de calidad (humedad y proteína), trazabilidad de transportistas y auditoría meteorológica de cada movimiento en tiempo real.
-
-Proyecto de desarrollo para **2º DAW**.
+Plataforma web profesional concebida para la gestión integral de **Operaciones y Stock de Silos en plantas logísticas de cereal**. **SilOS** centraliza la recepción, control de capacidad, análisis de calidad (humedad y proteína), trazabilidad de transportistas y auditoría meteorológica de cada movimiento en tiempo real.
 
 ## 💡 Origen y Motivación del Proyecto
 
@@ -16,11 +14,11 @@ Este proyecto nace directamente de mi experiencia personal trabajando como **ope
 * **Duplicidad de tareas:** El almacén registraba los pesajes manualmente y las empresas clientes debían llevar su propio control independiente, generando discusiones constantes durante las liquidaciones de campaña.
 * **Falta de transparencia en tiempo real:** Las empresas no disponían de un canal directo para consultar el nivel de sus silos o el histórico de sus descargas, obligándolas a realizar peticiones continuas por teléfono o correo electrónico.
 
-**silOS** (*Sistema de Operaciones y Stock*) se diseñó para erradicar estos problemas actuando como una **Única Fuente de la Verdad** (*Single Source of Truth*), conectando en una sola plataforma las operaciones físicas de báscula con la consulta remota de los clientes.
+**SilOS** (*Sistema Integral Logistico de Operaciones y Stock*) se diseñó para erradicar estos problemas actuando como una **Única Fuente de la Verdad** (*Single Source of Truth*), conectando en una sola plataforma las operaciones físicas de báscula con la consulta remota de los clientes.
 
 ## 📌 Descripción del Problema
 
-En un almacén de grano conviven camiones de distintas empresas (cooperativas, agricultores) para cargar o descargar mercancía. **silOS** resuelve las siguientes necesidades operativas reales:
+En un almacén de grano conviven camiones de distintas empresas (cooperativas, agricultores) para cargar o descargar mercancía. **SilOS** resuelve las siguientes necesidades operativas reales:
 
 * **Identificación rápida:** Búsqueda por matrícula e ingreso "al vuelo" de transportistas.
 * **Gestión de pesos y tara:** Registro manual de pesaje de entrada y salida con cálculo automático de cantidad neta.
