@@ -1,0 +1,28 @@
+<svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" style="background: #0f172a; border-radius: 12px; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Fondo sólido Deep Navy -->
+  <rect width="100%" height="100%" rx="12" fill="#0f172a" />
+
+  <!-- Isotipo: 3 columnas geométricas con el silo central más ancho -->
+  <g transform="translate(48, 35)">
+    <!-- Columna izquierda (Slate / Inactiva) -->
+    <rect x="0" y="5" width="18" height="60" rx="4" fill="#334155" />
+
+    <!-- Columna central (Exterior Verde Activo - Ampliado) -->
+    <rect x="21" y="0" width="24" height="70" rx="5" fill="#10b981" />
+    
+    <!-- Hueco interior (Azul de fondo a modo de vacío) -->
+    <rect x="24" y="3" width="18" height="64" rx="3" fill="#0f172a" />
+    
+    <!-- Carga de material de grano (Ámbar) -->
+    <rect x="26" y="35" width="14" height="30" rx="1.5" fill="#f59e0b" />
+
+    <!-- Columna derecha (Slate / Inactiva) -->
+    <rect x="48" y="5" width="18" height="60" rx="4" fill="#334155" />
+  </g>
+
+  <!-- Marca de texto y subtítulo original con mejor distribución -->
+  <g transform="translate(148, 0)">
+    <text x="0" y="68" font-size="50" font-weight="800" fill="#ffffff" letter-spacing="-1">sil<tspan fill="#10b981">OS</tspan></text>
+    <text x="2" y="90" font-size="11.5" font-weight="600" fill="#94a3b8" letter-spacing="2.2">SISTEMA DE OPERACIONES Y STOCK</text>
+  </g>
+</svg>
