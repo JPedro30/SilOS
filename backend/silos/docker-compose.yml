@@ -1,0 +1,16 @@
+services:
+  silos-db:
+    image: postgres:16-alpine
+    container_name: silos-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: silos_db
+      POSTGRES_USER: silos_admin
+      POSTGRES_PASSWORD: silos_password123
+    ports:
+      - "5432:5432"
+    volumes:
+      - silos_pgdata:/var/lib/postgresql/data
+
+volumes:
+  silos_pgdata:

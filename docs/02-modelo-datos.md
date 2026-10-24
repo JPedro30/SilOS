@@ -176,12 +176,3 @@ Para soportar el reajuste automático a cero al vaciar o cambiar de propietario 
 * Todas las relaciones `@ManyToOne` en la entidad `MovimientoEntity` serán mapeadas con estrategia `FetchType.LAZY` para evitar lecturas ansiosas pesadas e innecesarias en la base de datos.
 
 * Para el listado del histórico de movimientos se utilizarán consultas explicitas con `JOIN FETCH` para traer las entidades relacionadas (`Silo`, `Material`, `Transportista`, `Empresa`) en una única consulta SQL optimizada.
-
-```
-eof
-
-He generado el archivo `docs/02-modelo-datos.md` con todo el detalle de la arquitectura de la base de datos, relaciones, diccionario de campos y explicaciones de diseño.
-
-Quedo a tu disposición si deseas ajustar algo de la documentación o si estás listo para iniciar la configuración del proyecto Spring Boot.
-
-```
